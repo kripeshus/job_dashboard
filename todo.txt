@@ -1,0 +1,9 @@
+CREATE TABLE `jobs` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `title` varchar(20) NOT NULL,
+  `description` text NOT NULL,
+  `company_name` varchar(20) NOT NULL,
+  `location` varchar(25) NOT NULL,
+  `created_date` datetime DEFAULT CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`)
+)
